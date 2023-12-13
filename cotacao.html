@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+        <title>Cotação</title>
+    </head>
+
+    <body>
+        <header>
+            <div class="voltar">
+                <a href="#"><img src="img/seta_esquerda.svg" alt="Seta de Voltar"></a>
+            </div>
+            <div>
+                <h1>Informações da Cotação</h1>
+            </div>
+            <div>
+                <img id="logo_nav" src="img/logo.png" alt="Logo">
+            </div>
+        </header>
+
+        <section>
+            <form action="">
+                <label for="data_evento">Data e Hora do Evento</label>
+                <input type="datetime-local" name="data_evento" id="data_evento" required>
+                <label for="qtd_passageiros">Número de Passageiros</label>
+                <input type="number" name="qtd_passageiros" id="qtd_passageiros" placeholder="Número de Passageiros" maxlenght="100" required>
+                <label for="pne">Pessoas com Necessidades Especiais</label>
+                <select name="pne" id="pne" required>
+                    <option value="nao">Não</option>
+                    <option value="sim">Sim</option>
+                </select>
+                <button type="submit" onclick="prox()">Próximo</button>
+            </form>
+        </section>
+
+        <footer>
+            <div class="icon_footer">
+                <a href="https://api.whatsapp.com/send?phone=5511965802929"><img src="img/whatsapp.svg" alt="WhatsApp"></a>
+                <a href="https://www.instagram.com/triton.turismo/"><img src="img/instagram.svg" alt="Instagram"></a>
+                <a href="mailto:centraldosfretes@outlook.com"><img src="img/email.svg" alt="E-mail"></a>
+            </div>
+            <p>© 2023 Triton Transportes | Porque Viajar é Viver Bem.</p>
+        </footer>
+    </body>
+
+    <script>
+        function prox(){
+            window.location.href = "endereco_inicio.html"
+        }
+    </script>
+</html>
