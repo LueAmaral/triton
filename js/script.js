@@ -1,6 +1,11 @@
 const $menu_show = document.getElementById('menu_show');
 const $menu_mobile = document.querySelector('.menu_mobile');
 const $menu_btn = document.querySelectorAll('.menu_btn');
+// Desenvolvido por:
+// Danilo de Jesus Santos Oliveira
+// João Carlos Duca Silva
+// Lue Rodrigues do Amaral
+
 const $menu_mobile_btn = document.querySelectorAll('.menu_mobile_btn');
 
 $menu_show.addEventListener('click', () => {
