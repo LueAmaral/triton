@@ -11,10 +11,10 @@ const $menu_mobile_btn = document.querySelectorAll('.menu_mobile_btn');
 $menu_show.addEventListener('click', () => {
     if ($menu_mobile.style.display == 'block') {
         $menu_mobile.style.setProperty('display', 'none');
-        $menu_btn.forEach(btn => btn.src = '/img/menu.svg');
+        $menu_btn.forEach(btn => btn.src = '../img/menu.svg');
     } else {
         $menu_mobile.style.setProperty('display', 'block');
-        $menu_btn.forEach(btn => btn.src = '/img/close.svg');
+        $menu_btn.forEach(btn => btn.src = '../img/close.svg');
     }
 
 });
