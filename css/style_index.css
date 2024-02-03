@@ -9,7 +9,12 @@ Lue Rodrigues do Amaral */
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     text-decoration: none;
-    scroll-behavior: smooth
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+}
+
+html{
+    min-height: 100vh;
 }
 
 body{
